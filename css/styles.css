@@ -1,0 +1,194 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+.meet{
+  font-family:'Montserrat', sans-serif;
+font-size: 3rem;
+line-height: 1.5;
+}
+.container-fluid{
+  padding:3% 15% 8%;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat';
+}
+
+
+h1{
+font-size: 3.5rem;
+}
+h2{
+  font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+
+
+/***********navigation bar************/
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-weight: bold;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+font-size: 1.2rem;
+font-family: 'Montserrat', sans-serif;
+}
+/*DOWNLOAD BUTTON*/
+.download-button{
+  margin:2rem 1.2rem 0 0;
+}
+/*TITLE IMAGE*/
+.idog{
+  width: 50%;
+  transform:rotate(24deg);
+
+  position:absolute;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+/*feature*/
+#features{
+padding:7% 15%;
+background-color: white;
+position: relative;
+z-index: 1;
+}
+.feature-box{
+  text-align:center;
+  padding: 5%;
+}
+.icon{
+  color:#ef8172;
+  padding-bottom:8px;
+}
+.icon:hover{
+  color:  #ff4c68;
+}
+/*TESTIMONIALS*/
+#testimonials{
+
+  text-align: center;
+  background-color:#ef8172;
+  color:white;
+}
+
+/* .lady{
+border-radius: 100%;
+} */
+
+
+
+
+.testimonial-text{
+  font-family:'Montserrat', sans-serif;
+  font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+
+/* img {
+  transition: transform .7s ease-in-out;
+}
+img:hover {
+  transform: rotate(360deg);
+} */
+testimonial-img:hover{
+transition: 0.70s;
+  transform: rotate(360deg);
+}
+
+.testimonial-img{
+  transition: 0.70s;
+  width: 10%;
+  border-radius:100%;
+  margin: 20px;
+}
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.royality{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+/*pricing*/
+#pricing{
+  text-align: center;
+  padding:100px;
+}
+.spade{
+  text-align: center;
+}
+.card{
+  text-align:center;
+}
+.dogprice{
+  padding:10px 10px;
+}
+@media (max-width:993px) {
+  #title{
+    text-align: center;
+  }
+  .idog{
+    position: static;
+transform: rotate(0);
+  }
+
+}
+/*cta*/
+#cta{
+  color: white;
+  text-align: center;
+  background-color: #ff4c68;
+}
+.true-love{
+  color: white
+
+  font-weight: bold;
+  line-height: 1.5;
+  margin:2% auto;
+  font-size: 3.5rem;
+  padding:7% 15%;
+}
+.app{
+  margin:10px 10px 100px;
+
+}
+/*footer*/
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.fb:hover{
+  color: black;
+}
+
+.fb{
+
+  color: grey;
+margin: 7px 5px;
+}
+.copyright{
+  font-size:10px;
+}
+Images
